@@ -31,21 +31,21 @@ void loop()
 {
   for(i=0;i<=200;)
   {
-  forward();
-  delay(500);
-  Serial.println("yes");
-  Serial.println(i);
-  i=i+10;
-  p=i;
+           forward();
+           delay(500);
+           Serial.println("yes");
+           Serial.println(i);
+           i=i+10;
+           p=i;
   }
   for(i=200;i>0;)
   {
-    forward();
-  delay(500);
-  Serial.println("yes");
-  Serial.println(i);
-  i=i-10;
-  p=i;
+           forward();
+           delay(500);
+           Serial.println("yes");
+           Serial.println(i);
+           i=i-10;
+           p=i;
   }
   /*backward();
     delay(2000);
